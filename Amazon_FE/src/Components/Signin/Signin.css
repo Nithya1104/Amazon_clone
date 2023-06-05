@@ -1,0 +1,110 @@
+.sign {
+    padding-top: 100px;
+}
+
+.signin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+}
+
+.signinimg {
+    height: 50px;
+    width: 50px;
+}
+
+.err {
+    color: rgb(222, 69, 69);
+    font-weight: bold;
+}
+
+.signbox {
+    border: 2px solid rgb(203, 200, 200);
+    border-radius: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.sign_text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding-block: 7px;
+}
+
+.signinput {
+    width: 350px;
+    height: 25px;
+}
+
+input:hover {
+    border: 1px solid orangered;
+}
+
+.signinbutton {
+    border: transparent;
+    background-color: rgb(243, 235, 9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.signinbutton:active{
+    background-color: rgb(207, 229, 14);
+}
+
+.log {
+    padding-top: 50px;
+}
+
+.already_login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(189, 185, 185);
+    width: 380px;
+}
+
+.log_text {
+    padding-top: 10px;
+    color: rgb(78, 77, 77);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_btn {
+    border: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 25px;
+    color: black;
+}
+
+.login_btn:hover {
+    background-color: rgb(168, 166, 166);
+}
+
+.success_message {
+    color: white;
+    background-image: linear-gradient(rgb(198, 67, 230), rgb(222, 191, 213));
+    height: 30px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+}

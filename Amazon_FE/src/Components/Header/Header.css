@@ -1,0 +1,104 @@
+.header {
+    background-color: rgb(5, 2, 20);
+    padding-block: 10px;
+    padding-inline: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%
+}
+
+.amazonImg {
+    height: 35px;
+    width: 90px;
+}
+
+.search {
+    display: flex;
+}
+
+.searchbar {
+    width: 1000px;
+    height: 40px;
+}
+
+.searchicon {
+    height: 40px;
+    width: 30px;
+    padding: 5px;
+    background-color: rgba(235, 148, 8, 0.975);
+}
+
+.sign_in {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 24px;
+}
+
+.sign__in {
+    border: transparent;
+    background: transparent;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.return {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.prime {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+
+.cart_ {
+    border: transparent;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.yellow {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    background-color: rgb(224, 175, 12);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    .header {
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .searchbar {
+        width: 300px;
+        height: 40px;
+    }
+}
+
+@media (max-width:427px) {
+    .header {
+        max-width: 427px;
+        width: 100%;
+        flex-direction: column;
+    }
+
+}

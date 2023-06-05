@@ -1,0 +1,9 @@
+.buy{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    color:rgb(3, 78, 78);
+    font-size: x-large;
+    font-weight:bold ;
+    padding: 200px;
+}

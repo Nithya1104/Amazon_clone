@@ -1,0 +1,26 @@
+.logg {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding:100px
+}
+.loginimg{
+    height:100px;
+    width:200px;
+}
+
+input:hover {
+    border:1px solid orangered;
+}
+.login {
+    border: 2px solid rgb(203, 200, 200);
+    border-radius: 18px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    padding-bottom: 20px;
+}
